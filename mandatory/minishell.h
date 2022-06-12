@@ -14,7 +14,7 @@
 # define MINISHELL_H
 
 # define BUFFER_SIZE 1
-# define HISTORY_PATH "/Users/aaitoual/.minishell_history"
+# define HISTORY_PATH "/Users/$(USER)/.minishell_history"
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
